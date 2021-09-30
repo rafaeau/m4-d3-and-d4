@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col, Card} from 'react-bootstrap'
-import CommentArea from './CommentArea'
+import CommentArea from './CommentArea' 
 
 
 /* const SingleBook = (props) => (
@@ -39,7 +39,7 @@ import CommentArea from './CommentArea'
                     </Col>
                 </Row>
 
-                {this.state.selected && <CommentArea/>}
+                {this.state.selected && <CommentArea asin={this.props.book.asin}/>}
 
             </Container>
             )}
