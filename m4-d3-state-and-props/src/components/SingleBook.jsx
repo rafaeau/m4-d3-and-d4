@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col, Card} from 'react-bootstrap'
+import CommentArea from './CommentArea'
 
 
 /* const SingleBook = (props) => (
@@ -37,6 +38,9 @@ import {Container, Row, Col, Card} from 'react-bootstrap'
                         </Card>
                     </Col>
                 </Row>
+
+                {this.state.selected && <CommentArea/>}
+
             </Container>
             )}
     }
